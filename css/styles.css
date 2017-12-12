@@ -1,0 +1,119 @@
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+ul li {
+  list-style-type: none; }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+img {
+  max-width: 100%; }
+
+.wrapper {
+  overflow: hidden; }
+
+body {
+  font-size: 30px; }
+
+header {
+  background: url("../img/bg-img.jpg");
+  background-size: cover;
+  padding: 90px 0; }
+
+.header-top {
+  max-width: 80%;
+  margin: 0 auto 190px auto;
+  font-size: 0; }
+
+.logo-block {
+  width: 35%;
+  text-align: center;
+  display: inline-block; }
+
+.logo {
+  margin-bottom: 25px; }
+
+.socials {
+  font-size: 0; }
+
+.socials a {
+  display: inline-block;
+  margin-right: 17px; }
+
+.socials a:last-child {
+  margin-right: 0; }
+
+.socials a:hover {
+  opacity: 0.6; }
+
+.linked {
+  width: 55px;
+  height: 55px;
+  background: url("../img/social.png");
+  background-position: 0 0; }
+
+.vk {
+  width: 55px;
+  height: 55px;
+  background: url("../img/social.png");
+  background-position: -69px 0; }
+
+.ok {
+  width: 55px;
+  height: 55px;
+  background: url("../img/social.png");
+  background-position: -139px 0; }
+
+.youtube {
+  width: 55px;
+  height: 55px;
+  background: url("../img/social.png");
+  background-position: -209px 0; }
+
+.inst {
+  width: 55px;
+  height: 55px;
+  background: url("../img/social.png");
+  background-position: -279px 0; }
+
+.mark-logo {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center; }
+
+.contacts {
+  width: 35%;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  padding-top: 40px;
+  color: white;
+  font-family: Tahoma, sans-serif; }
+
+.contacts .tel {
+  font-size: 48px; }
+
+.contacts span {
+  font-size: 36px; }
+
+h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  width: 630px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=styles.css.map */
