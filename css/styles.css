@@ -121,7 +121,7 @@ h1 {
 header .booking-form {
   max-width: 80%;
   margin: 0 auto;
-  padding: 45px 1px 60px 5px;
+  padding: 45px 1px 60px 1px;
   background-color: rgba(255, 255, 255, 0.5);
   text-align: center; }
 
@@ -151,5 +151,25 @@ header .booking-form {
   width: 21%;
   text-align: center;
   padding: 20px 0 20px 0; }
+
+main {
+  text-align: center; }
+
+.features {
+  border-bottom: 5px solid #a60436;
+  padding: 25px 0 60px 0; }
+
+h2 {
+  font-size: 48px;
+  color: #323232;
+  margin-bottom: 50px; }
+
+.feature-img {
+  margin-bottom: 50px; }
+
+.features span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #a60436; }
 
 /*# sourceMappingURL=styles.css.map */
