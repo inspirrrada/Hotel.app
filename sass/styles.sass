@@ -36,23 +36,25 @@ header
   font-size: 0
 
 .logo-block
-  width: 23%
+  width: 25%
+  margin-right: 10%
   text-align: center
   display: inline-block
-  margin-right: 12%
+
 
 .logo
   margin-bottom: 25px
 
 .socials
   font-size: 0
+  width: 25%
+  text-align: center
+  a
+    display: inline-block
+    margin-right: 15px
 
-.socials a
-  display: inline-block
-  margin-right: 17px
-
-.socials a:last-child
-  margin-right: 0
+    a:last-child
+      margin-right: 0
 
 .socials a:hover
   opacity: .6
@@ -101,8 +103,7 @@ header
   padding-top: 40px
   color: white
 
-
-.contacts .tel
+.tel
   font-size: 48px
   font-weight: 500
 
@@ -120,7 +121,7 @@ h1
 header .booking-form
   max-width: 80%
   margin: 0 auto
-  padding: 45px 1px 60px 1px
+  padding: 20px 1px 60px 1px
   background-color: rgba(255,255,255,0.5)
   text-align: center
 
@@ -128,13 +129,13 @@ header .booking-form
   font-size: 36px
   color: #fffefe
   font-weight: 500
-  margin-bottom: 65px
+  margin-bottom: 6%
 
 .booking-form input
   font-size: 30px
   font-weight: 500
   color: #252525
-  padding: 25px 20px 25px 40px
+  padding: 2% 2% 2% 2%
   border: 2px solid #c7c7c7
   border-radius: 5px
   width: 21%
@@ -162,16 +163,20 @@ main
 
 .features
   border-bottom: 5px solid #a60436
-  padding: 25px 0 60px 0
+  padding: 25px 1% 60px 1%
 
 h2
   font-size: 48px
   color: #323232
-  margin-bottom: 50px
+  //margin-bottom: 50px
   font-weight: bold
+
+.fearure-block
+  margin-top: 50px
 
 .feature-img
   margin-bottom: 50px
+  min-height: 162px
 
 .features span
   font-size: 24px
@@ -187,6 +192,7 @@ h2
   border-radius: 5px
   text-align: center
   padding: 35px 0 40px 0
+  margin-top: 8%
 
 .room-block h4
   font-size: 36px
@@ -228,3 +234,112 @@ main .booking-form input::placeholder
 
 main .booking-form button
   width: 18%
+
+@media (max-width: 1749px)
+  .logo-block
+    width: 28%
+    margin-right: 7%
+  .socials
+    width: 28%
+  .socials a
+    margin-right: 5px
+
+
+@media (max-width: 1700px)
+  .room-block h4
+    font-size: 26px
+    min-height: 56px
+  .room-block span
+    font-size: 22px
+    min-height: 62px
+  .room-describe
+    font-size: 20px
+    min-height: 130px
+  .room-block button
+    font-size: 22px
+  button
+    font-size: 30px
+
+
+
+@media (max-width: 1400px)
+  //.header-top img
+  //  width: 75%
+  //.contacts
+  //  padding-top: 10px
+  .contacts span
+    font-size: 28px
+  .socials a
+    margin-right: 2px
+  h1
+    font-size: 50px
+  .booking-form input
+    font-size: 22px
+  button
+    font-size: 22px
+  h2
+    font-size: 36px
+  .features span
+    font-size: 18px
+
+@media (max-width: 1000px)
+  .contacts span
+    font-size: 24px
+  h1
+    font-size: 40px
+  h2
+    font-size: 28px
+  .booking-form h3
+    font-size: 28px
+  .booking-form input
+    font-size: 18px
+    padding: 2% 1% 2% 1%
+  button
+    font-size: 18px
+
+@media (max-width: 900px)
+  .booking-form input
+    display: block
+    width: 80%
+    margin: 0 auto 2% auto
+
+  .booking-form button
+    width: 80%
+    margin-top: 5%
+
+  main .booking-form input
+    width: 80%
+    margin: 0 auto 2% auto
+
+  main .booking-form button
+    width: 80%
+    margin-top: 5%
+
+@media (max-width: 700px)
+  .contacts span
+    font-size: 20px
+  .socials
+    width: 100%
+  .logo-block
+    width: 40%
+    margin-right: 20%
+  .mark-logo
+    width: 40%
+  .contacts
+    display: block
+    width: 100%
+    text-align: center
+    margin-bottom: 5%
+  .contacts span
+    font-size: 28px
+  h1
+    font-size: 30px
+    width: 100%
+  h2
+    font-size: 24px
+  .booking-form h3
+    font-size: 22px
+  .booking-form input
+    font-size: 14px
+  .booking-form button
+    font-size: 18px
